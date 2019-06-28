@@ -9,6 +9,7 @@ body {
 	background: aliceblue;
 	font-family: 'Lato', sans-serif;
 	width: 100%;
+	overflow: hidden;
 }
 
 /****** NAVIGATION ******/
