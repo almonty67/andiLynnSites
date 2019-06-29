@@ -13,17 +13,19 @@ body {
 }
 
 /****** NAVIGATION ******/
-.navbar {
+nav.navbar.navbar-expand-lg.navbar-dark.navbar-fixed {
 	background-color: black;
-	padding-top:  0.25rem;
-	padding-bottom:  0.25rem;
-	line-height: 1em;
+	height: 50px;
+	/*padding-top:  15px;*/
+	/*padding-bottom:  50px;*/
 }
 
 a.navbar-brand {
 	color: blueviolet !important;
 	font-family: 'Muli', sans-serif;
 	font-size: 1.67rem;
+	padding-top: 35px;
+	padding-bottom: 42px;
 }
 
 a.navbar-brand:hover {
@@ -38,20 +40,34 @@ a:hover {
 	color: darkcyan;
 }
 
-li.nav-item {
+a.nav-link {
 	font-family: 'Muli', sans-serif;
 	font-size: 1.12rem;
 	padding: 25px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+.button.navbar-toggler {
+	color: cornflowerblue;
 }
 /****** END NAVIGATION ******/
 
+div.carousel-item {
+	margin-bottom: 500px;
+}
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+	background-color: blueviolet;
+	margin-bottom: 500px;
+}
 /****** ABOUT SECTION ******/
 .container {
-	margin-top: 43px;
+	margin-bottom: 150px;
 }
 
 h1 {
-	margin-top: 4rem !important;
+	margin-bottom: 4rem !important;
 }
 
 h1, h3 {
@@ -77,12 +93,12 @@ ul.skills-list {
 
 h3.skills {
 	color: darkcyan;
-	padding-left: 55px;
+	padding-left: 108px;
 }
 
 ul.skills-list {
 	color: darkcyan;
-	padding-left: 79px;
+	padding-left: 110px;
 }
 
 .second-col {
