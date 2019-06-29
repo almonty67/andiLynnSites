@@ -109,3 +109,14 @@ li {
 	list-style: none;
 }
 /****** END ABOUT SECTION ******/
+
+/****** RESUME SECTION ******/
+.resume-para {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.btn.resume {
+	margin-left: 600px;
+}
+/****** RESUME SECTION ******/
