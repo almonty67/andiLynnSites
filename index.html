@@ -265,8 +265,10 @@
 		    </div> <!-- END accordian -->
 	    </section>
 <!-- END FAQ Section  -->
+	    <a id="back-to-top" href="#" class="btn  btn-lg back-to-top" role="button"
+	       title="Click to return on the top page" data-toggle="tooltip" data-placement="left">Back to top</a>
 
-<!-- Footer -->
+				<!-- Footer -->
 	    <footer class="footer pb-3">
 		    <p class="copy-right text-center">&copy;2019 AM / revised</p>
 	    </footer>
@@ -278,5 +280,28 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+	    <script>
+            $(document).ready(function(){
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 50) {
+                        $('#back-to-top').fadeIn();
+                    } else {
+                        $('#back-to-top').fadeOut();
+                    }
+                });
+                // scroll body to 0px on click
+                $('#back-to-top').click(function () {
+                    $('#back-to-top').tooltip('hide');
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+
+                $('#back-to-top').tooltip('show');
+
+            });
+	    </script>
+
 	</body>
 </html>
