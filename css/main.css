@@ -117,7 +117,7 @@ li {
 
 /****** RESUME SECTION ******/
 h3.resume {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .resume-para {
@@ -127,6 +127,72 @@ h3.resume {
 }
 
 .btn.resume {
-	margin-left: 600px;
+	margin-left: 650px;
+	margin-top: 34px;
+	margin-bottom: 92px;
 }
 /****** END RESUME SECTION ******/
+
+/****** CONTACT SECTION ******/
+#contact {
+	background-image: url("../img/abstract-internet.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h3.contact-me {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-left: 25px;
+	padding-top: 100px;
+}
+
+p.questions {
+	font-size: 1.7rem;
+	font-weight: bolder;
+	margin-left: 25px;
+	padding-top: 6px;
+}
+
+h4.email {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-top: 85px;
+}
+
+p.email-address {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-bottom: 15px;
+}
+
+h4.snail-mail {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-top: 85px;
+}
+
+p.mailing-address {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-bottom: 15px;
+}
+
+h4.business-phone {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-top: 85px;
+}
+
+p.phone-number {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-left: 25px;
+	padding-bottom: 85px;
+}
+/****** END CONTACT SECTION ******/
