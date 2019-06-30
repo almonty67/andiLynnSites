@@ -138,61 +138,103 @@ h3.resume {
 	background-image: url("../img/abstract-internet.jpg");
 	background-attachment: fixed;
 	background-size: cover;
+	height: 550px;
+	padding-bottom: 100px;
+	margin-top: 210px;
+	width: 100%;
 }
 
 h3.contact-me {
-	font-size: 3rem;
+	font-size: 2.4rem;
 	font-weight: bolder;
 	margin-left: 25px;
-	padding-top: 100px;
+	padding-top: 70px;
+
 }
 
 p.questions {
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	font-weight: bolder;
 	margin-left: 25px;
 	padding-top: 6px;
 }
 
 h4.email {
-	font-size: 2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	margin-left: 25px;
-	padding-top: 85px;
+	padding-top: 45px;
 }
 
 p.email-address {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-weight: bold;
 	margin-left: 25px;
 	padding-bottom: 15px;
 }
 
 h4.snail-mail {
-	font-size: 2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	margin-left: 25px;
-	padding-top: 85px;
+	padding-top: 25px;
 }
 
 p.mailing-address {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-weight: bold;
 	margin-left: 25px;
 	padding-bottom: 15px;
 }
 
 h4.business-phone {
-	font-size: 2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	margin-left: 25px;
-	padding-top: 85px;
+	padding-top: 25px;
 }
 
 p.phone-number {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-weight: bold;
 	margin-left: 25px;
-	padding-bottom: 85px;
+
 }
 /****** END CONTACT SECTION ******/
+
+/****** FAQ SECTION ******/
+#FAQ {
+	margin-top: 200px;
+}
+h4.faq {
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+
+p.things-to-know {
+	font-size: 1.3rem;
+}
+
+/*======== ACCORDIAN =============*/
+div#accordionExample.accordion {
+	padding-top: 60px;
+}
+
+.card {
+	background-color: #000;
+}
+
+button.btn.btn-link {
+	color: blueviolet;
+}
+
+div.card-body {
+	color: darkcyan;
+}
+
+/*======== END ACCORDIAN =============*/
+/****** END FAQ SECTION ******/
+
+/****** FOOTER SECTION ******/
+
+/****** END FOOTER SECTION ******/
